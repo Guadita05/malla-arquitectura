@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+.nivel {
+  margin-bottom: 30px;
+}
+
+.materia {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: #ddd;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.materia.bloqueada {
+  background-color: #aaa;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.materia.aprobada {
+  background-color: #8f8 !important;
+}
