@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Malla Interactiva</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Malla Interactiva - Arquitectura</h1>
+
+  <div class="nivel">
+    <h2>Curso Nivelatorio</h2>
+    <div class="materia" id="Arquitectura I" onclick="toggleMateria('Arquitectura I')">Arquitectura I</div>
+    <div class="materia" id="Sistemas Gráficos de Expresión" onclick="toggleMateria('Sistemas Gráficos de Expresión')">Sistemas Gráficos</div>
+  </div>
+
+  <div class="nivel">
+    <h2>Nivel II</h2>
+    <div class="materia bloqueada" id="Arquitectura II" onclick="toggleMateria('Arquitectura II')">Arquitectura II</div>
+    <div class="materia bloqueada" id="Morfología II" onclick="toggleMateria('Morfología II')">Morfología II</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
